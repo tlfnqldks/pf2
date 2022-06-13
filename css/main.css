@@ -1,0 +1,219 @@
+main{
+
+}
+main #recommend{
+
+  margin-top: 50px;
+  height: 835px;
+}
+main #recommend .wrap{
+
+}
+main #recommend .wrap h2{
+
+  font-weight: bold;
+  padding-bottom: 15px;
+  font-size: 18px;
+}
+main #recommend .wrap ul{
+
+  display: flex;
+  gap: 56px;
+  text-align: center;
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 56px;
+}
+main #recommend .wrap ul li{
+
+}
+main #recommend .wrap ul li:nth-child(1) a::before{
+  content: "";
+  background-image: url(https://images.unsplash.com/photo-1571242352061-7611fbafbd42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8b3Nha2F8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+  display: block;
+  width: 238px;
+  height: 238px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  margin-bottom: 20px;
+}
+main #recommend .wrap ul li:nth-child(2) a::before{
+  content: "";
+  background-image: url(https://images.unsplash.com/photo-1581398644564-c46e97d9418a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGplanUlMjBkb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+  display: block;
+  width: 238px;
+  height: 238px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  margin-bottom: 20px;
+}
+main #recommend .wrap ul li:nth-child(3) a::before{
+  content: "";
+  background-image: url(https://images.unsplash.com/photo-1595737361672-ae84c6ca2298?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8amVqdSUyMGRvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+  display: block;
+  width: 238px;
+  height: 238px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  margin-bottom: 20px;
+}
+main #recommend .wrap ul li:nth-child(4) a::before{
+  content: "";
+  background-image: url(https://images.unsplash.com/photo-1595737335975-2160c924caf2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGplanUlMjBkb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+  display: block;
+  width: 238px;
+  height: 238px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  margin-bottom: 20px;
+}
+main #recommend .wrap ul li a{
+
+  font-size: 14px;
+  color: #666;
+}
+.name{
+  
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  line-height: 2;
+}
+main #recommend .wrap2{
+
+  width: 1100px;
+  margin: 0 auto;
+}
+main #recommend .wrap2 a{
+  
+  font-size: 0;
+  background-image: url(../img/human.png);
+  display: block;
+  width: 1085px;
+  height: 115px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+main #recommend .util{
+  position: relative;
+  background: #eee;
+  width: 100%;
+  margin-top: 80px;
+  height: 140px;
+}
+main #recommend .utillist{
+
+  display: flex;
+  width: 1100px;
+  margin: 0 auto;
+  padding-top: 26px;
+}
+main #recommend .util .cs{
+
+  font-size: 15px;
+  color: #666;
+  line-height: 1.5;
+}
+main #recommend .util .cs h4{
+
+  font-weight: bold;
+  color: black;
+}
+main #recommend .util .cs p{
+
+}
+main #recommend .util .cs button{
+
+  margin-top: 10px;
+  height: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 13px;
+}
+main #recommend .util .sns{
+
+  margin-left: 70px;
+}
+main #recommend .util .sns h4{
+
+  font-weight: bold;
+}
+main #recommend .util .sns ul{
+
+  display: flex;
+  position: relative;
+  gap: 15px;
+  margin-top: 10px;
+}
+main #recommend .util .sns ul li{
+
+}
+main #recommend .util .sns ul li a{
+
+  font-size: 0;
+}
+main #recommend .util .sns ul li:nth-child(1) a{
+  content: "";
+  background-image: url(../img/face.png);
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+main #recommend .util .sns ul li:nth-child(2) a{
+  content: "";
+  background-image: url(../img/you.png);
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+main #recommend .util .sns ul li:nth-child(3) a{
+  content: "";
+  background-image: url(../img/insta.png);
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+main #recommend .util .ma{
+
+  margin-left: 150px;
+  font-size: 15px;
+  color: #666;
+  line-height: 1.5;
+}
+main #recommend .util .ma h4{
+
+  font-weight: bold;
+  color: black;
+}
+main #recommend .util .ma p{
+
+  font-size: 13px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+main #recommend .util .ma a{
+
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.mail{
+  
+  margin-left: 20px;
+  color: #ff5000;
+  font-weight: normal;
+}

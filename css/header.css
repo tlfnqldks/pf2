@@ -1,0 +1,105 @@
+header{
+
+    width: 100%;
+}
+header div.wrap{
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+header div.wrap2{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 10px;
+    font-size: 12px;
+}
+header ul.enb{
+    display: flex;
+    gap: 10px;
+}
+header ul.enb2{
+    display: flex;
+    gap: 20px;
+}
+header div.hbox{
+
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-left: 86px;
+}
+header h1{
+    
+    position: relative;
+    background-image: url(../img/logo.png);
+    width: 113px;
+    height: 20px;
+    font-size: 0;
+}
+header ul.gnb{
+    display: flex;
+    margin: -16px 0 0 181px;
+    gap: 34px;
+    font-weight: bold;
+}
+header ul.gnb li{
+    
+}
+header ul.gnb li a{
+   
+}
+header ul.gnb li:nth-child(5) a::after{
+    content: "";
+    background-image: url(../img/but.png);
+    display: block;
+    width: 52px;
+    height: 52px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    margin-left: 400px;
+    margin-top: -20px;
+}
+header ul.enb li{
+    
+}
+header ul.enb li a{
+    
+}
+header ul.enb li:nth-child(2) a::before{
+
+    content: "I";
+    color: #666;
+    padding-right: 7px;
+}
+header ul.enb li:nth-child(2) a::after{
+    content: "▼";
+    padding-left: 6px;
+    font-size: 11px;
+}
+header ul.enb2 li{
+    
+}
+header ul.enb2 li a{
+    
+}
+header ul.enb2 li:nth-child(6) a::before{
+    content: "I";
+    color: #666;
+    padding-right: 20px;
+}
+header ul.enb2 li:nth-child(6) a::after{
+    content: "";
+    display: block;
+    background-image: url(../img/arrow.png);
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    margin-left: 84px;
+    margin-top: -13px;
+}
